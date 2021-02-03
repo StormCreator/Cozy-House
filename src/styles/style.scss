@@ -2,8 +2,7 @@
 @import 'base/variables';
 @import 'base/mixins';
 @import 'base/icons';
-// @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
-// @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
 
 
 body{
@@ -20,12 +19,6 @@ body{
 @import 'blocks/header.scss';
 @import 'blocks/button.scss';
 @import 'blocks/about';
-// @import 'blocks/header';
-// @import 'blocks/buttons';
-// @import 'blocks/promo';
-// @import 'blocks/habmurger';
-// @import 'blocks/title';
-// @import 'blocks/services';
-// @import 'blocks/offer';
-// @import 'blocks/media';
+@import 'blocks/friends';
+
 

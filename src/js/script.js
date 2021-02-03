@@ -4,7 +4,8 @@ $(document).ready(function(){
         slidesToScroll: 2,
         arrows: true,
         infinite: true,
-        prevArrow: '<button type="button" class="slick-prev"><img src="../icons/slider/prev-arrow.png"></button>',
-        nextArrow: '<button type="button" class="slick-next"><img src="../icons/slider/next-arrow.png"></button>',
+        prevArrow: '<button type="button" class="slick-prev"><img src="../icons/prev-arrow.png"></button>',
+        nextArrow: '<button type="button" class="slick-next"><img src="../icons/next-arrow.png"></button>',
+
     });
 })(jQuery);

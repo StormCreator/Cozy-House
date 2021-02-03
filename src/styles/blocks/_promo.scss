@@ -1,13 +1,13 @@
 .promo{
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     padding: 60px 0px 0px 0px;
     background: url('../images/promo/promo_bg.jpg') center (center/cover)  no-repeat;
     &__info{
         margin-top: 230px;
         max-width: 440px;
     }
-    &__text{
+    &__title{
         font-size: 44px;
         color: $main-color;
         line-height: 1.295;

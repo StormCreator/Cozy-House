@@ -7,14 +7,19 @@
 
 
 body{
-    font-family: 'Montserrat';
+    font-family: 'Georgia';
     
 }
 
 .container{
-    max-width: 1300px;
+    max-width: 1170px;
     margin: 0 auto;
 }
+
+@import 'blocks/promo.scss';
+@import 'blocks/header.scss';
+@import 'blocks/button.scss';
+@import 'blocks/about';
 // @import 'blocks/header';
 // @import 'blocks/buttons';
 // @import 'blocks/promo';

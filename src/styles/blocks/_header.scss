@@ -1,0 +1,54 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+    &__logo{
+        a{
+            font-size: 32px;
+            color: $main-color;
+            text-decoration: none;
+        }
+        span{
+            display: block;
+            color: #f6f5f5;
+            font-size: 13px;
+            font-family: 'Arial';
+            line-height: 2.231;
+            letter-spacing: 1.15px;
+        } 
+    }
+    &__links{
+        display: flex;
+    }
+    &__link{
+        margin-right: 40px;
+        position: relative;
+        &:last-child{
+            margin-right: 0px;
+        }
+        &:after{
+            content: '';
+            display: block;
+            width: 0px;
+            height: 3px;
+            background-color: $main-color;
+            border-radius: 6px;
+            position: absolute;
+            left: 0;
+            bottom: -7px;
+            transition: .5s all;
+        }
+        &:hover{
+            &:after{
+                width: 100%;
+            }
+        }
+        a{
+            color: #fff;
+            font-size: 15px;
+            font-family: "Arial";
+            text-decoration: none;
+        } 
+    }
+}

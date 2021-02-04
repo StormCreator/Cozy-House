@@ -8,12 +8,8 @@
 
 body{
     font-family: 'Georgia', sans-serif;
-    
 }
 
-svg:not(:root) {
-    overflow: visible !important;
-}
 
 .container{
     max-width: 1170px;
@@ -29,5 +25,36 @@ svg:not(:root) {
 @import 'blocks/help';
 @import 'blocks/donation';
 @import 'blocks/footer';
+@import 'blocks/hamburger';
 
+
+
+@media (max-width: 1300px){
+    .container{
+        max-width: 1140px;
+    }
+}
+
+@media (max-width: 1200px){
+    .container{
+            max-width: 968px
+    }
+}
+@media (max-width: 992px){
+    .container{
+        max-width: 720px
+    }
+}
+
+@media (max-width: 768px){
+    .container{
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 576px){
+    .container{
+        max-width: 100%;
+    }
+}
 

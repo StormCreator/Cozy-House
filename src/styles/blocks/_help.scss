@@ -1,6 +1,9 @@
 .help{
-    min-height: 100vh;
+    min-height: calc(590px - 150px);
     padding: 75px 0px;
+    &__title{
+        margin-top: 0px;
+    }
     &__wrapper{
         width: 100%;
         display: flex;
@@ -28,3 +31,27 @@
     }
 }
 
+
+@media (max-width: 992px){
+    .help{
+        .assistance{
+            img{
+                width: 35px;
+                height: 35px;
+            }
+        }
+    }
+}
+
+
+
+@media (max-width: 768px){
+    .help{
+        .assistance{
+            width: 100px;
+            &__title{
+                font-size: 13px;
+            }
+        }
+    }
+}

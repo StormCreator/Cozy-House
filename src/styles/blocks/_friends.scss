@@ -131,4 +131,23 @@
     .friends{
         padding-bottom: 20px;
     }
+    .slick-dots{
+        display: flex !important;
+        justify-content: center;
+        margin-top: 20px;
+        li{
+            margin-right: 10px;
+            &:last-child{
+                margin-right: 0px;
+            }
+            button{
+                background-color: $main-color;
+                border-radius: 100%;
+                border: none;
+                font-size: 0px;
+                width: 15px;
+                height: 15px;
+            }
+        }
+    }
 }

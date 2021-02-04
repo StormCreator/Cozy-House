@@ -63,8 +63,9 @@
         z-index: 20;
     }
     .mobile-menu{
-        width: 30%;
+        width: 100%;
         right: 0;
+        height: 100%;
         background-color: #fff;
         transition: .5s all;
         padding-left: 15px;
@@ -72,8 +73,9 @@
         ul{
             flex-direction: column;
             padding-top: 40px;
+            text-align: center;
             li{
-                margin-bottom: 20px;
+                margin-bottom: 35px;
                 &::after{
                     display: none;
                 }
@@ -91,7 +93,7 @@
             padding-top: 60px;
             li{
                 a{
-                    font-size: 12px;
+                    font-size: 30px;
                 }
             }
         }

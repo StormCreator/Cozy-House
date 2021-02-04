@@ -66,10 +66,14 @@
 @media (max-width: 576px){
     .promo{
         &__info{
-            padding-left: 20px;
-           
+            padding-left: 15px;
+            max-width: 200px;
         }
         &__title{
+            font-size: 17px;
+        }
+        &__descr{
+            font-size: 14px;
         }
     }
 }

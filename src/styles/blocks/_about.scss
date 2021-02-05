@@ -14,18 +14,18 @@
             object-fit: cover;
         }
     }
-    &__info{
-        max-width: 410px;
-    }
     &__title{
         font-size: 36px;
         color: $title-color;
+        max-width: 300px;
+        line-height: 1.2;
     }
     &__descr{
         font-family: 'Arial';
         font-size: 15px;
         margin-top: 30px;
         line-height: 1.6;
+        max-width: 370px;
     }
 }
 

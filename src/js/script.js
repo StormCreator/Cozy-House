@@ -1,3 +1,4 @@
+
 $(document).ready(function(){
     const hamburgerBtn = document.querySelector('.hamburger-btn__burger'),
             menu = document.querySelector('.header__navigation'),
@@ -23,8 +24,8 @@ $(document).ready(function(){
         slidesToScroll: 1,
         arrows: true,
         infinite: true,
-        prevArrow: '<button type="button" class="slick-prev"><img src="../icons/prev-arrow.png"></button>',
-        nextArrow: '<button type="button" class="slick-next"><img src="../icons/next-arrow.png"></button>',
+        prevArrow: '<button type="button" class="slick-prev"><img src="images/friends/prev-arrow.png"></button>',
+        nextArrow: '<button type="button" class="slick-next"><img src="images/friends/next-arrow.png"></button>',
         responsive: [
             {
                 breakpoint: 992,
@@ -65,4 +66,4 @@ $(document).ready(function(){
         })
     }
 
-})(jQuery);
+});

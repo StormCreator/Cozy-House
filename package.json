@@ -38,6 +38,7 @@
     "maintained node versions"
   ],
   "dependencies": {
-    "animate.css": "^4.1.0"
+    "animate.css": "^4.1.0",
+    "jquery": "^3.5.1"
   }
 }

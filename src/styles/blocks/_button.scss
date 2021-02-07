@@ -5,6 +5,9 @@
     background-color: $main-color;
     font-size: 17px;
     font-family: "Georgia";
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
 }
 
 @media (max-width: 576px){

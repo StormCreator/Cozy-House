@@ -24,8 +24,8 @@ $(document).ready(function(){
         slidesToScroll: 1,
         arrows: true,
         infinite: true,
-        prevArrow: '<button type="button" class="slick-prev"><img src="../images/friends/prev-arrow.png"></button>',
-        nextArrow: '<button type="button" class="slick-next"><img src="../images/friends/next-arrow.png"></button>',
+        prevArrow: '<button type="button" class="slick-prev"><img src="images/friends/prev-arrow.png"></button>',
+        nextArrow: '<button type="button" class="slick-next"><img src="images/friends/next-arrow.png"></button>',
         responsive: [
             {
                 breakpoint: 992,

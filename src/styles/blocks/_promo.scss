@@ -11,17 +11,17 @@
         color: $main-color;
         max-width: 345px;
         line-height: 1.295;
+        margin-bottom: 30px;
     }
     &__descr{
-        margin-top: 30px;
         font-family: 'Arial';
         font-size: 15px;
         color: #fff;
         line-height: 1.6;
         max-width: 440px;
+        margin-bottom: 45px;
     }
     &__btn{
-        margin-top: 45px;
         transition: .2s background-color;
         &:hover{
             background-color: #fff;
@@ -43,19 +43,10 @@
     }
 }
 
-@media (max-width: 992px){
-    .promo{
-        &__title{
-            font-size: 29px;
-        }
-    }
-}
-
 @media (max-width: 768px){
     .promo{
         padding-top: 0px;
         &__info{
-            padding-left: 20px;
             max-width: 330px;        
         }
         &__title{
@@ -67,7 +58,6 @@
 @media (max-width: 576px){
     .promo{
         &__info{
-            padding-left: 15px;
             max-width: 200px;
         }
         &__title{

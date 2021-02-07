@@ -42,9 +42,11 @@
             margin-bottom: 20px;
         }
         &__btn{
+            display: block;
             background-color: transparent;
             border: 2px solid $main-color;
             transition: .2s background-color;
+            margin-top: 15px;
             &:hover{
                 background-color: $main-color;
             }
